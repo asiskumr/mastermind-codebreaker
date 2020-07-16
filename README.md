@@ -1,4 +1,3 @@
-# mastermind-codebreaker
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
@@ -11,7 +10,7 @@
   <style media="screen">
     .colorpeg {
       width: 470px;
-      height: 770px;
+      height: 860px;
       background-color: silver;
       border-style: solid;
       border-radius: 10px;
