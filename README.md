@@ -30,61 +30,69 @@
       background-color: red;
     }
 
-    #green {
-      background-color: green;
-    }
-
-    #yellow {
-      background-color: yellow;
+    #lightblue {
+      background-color: #1dd3bd;
     }
 
     #blue {
       background-color: blue;
     }
 
-    #orange {
-      background-color: orange;
+    #green {
+      background-color: #79d70f;
     }
 
-    #violet {
-      background-color: violet;
+    #pink {
+      background-color: deeppink;
+    }
+
+    #yellow {
+      background-color: yellow;
     }
 
     #black {
       background-color: black;
     }
+
+    h3 {
+      color: #5c2a9d;
+      text-shadow: 5px 5px 2px grey;
+    }
   </style>
 
 </head>
 
-<body bgcolor=lightblue>
+<body bgcolor="#84a9ac">
   <center>
     <div>
-      <h1>Given color pegs</h1>
+      <h1>Given 6 color pegs</h1>
+      <marquee>
+        <h3>Codebreaker has to reveal the colors combinations and positions in 10 steps only</h3>
+      </marquee>
       <table border="1" bgcolor="silver">
         <tr>
           <td>RED</td>
           <td><input id="red" type="button"> </td>
         </tr>
         <tr>
-          <td>GREEN</td>
-          <td><input id="green" type="button"> </td>
-        </tr>
-        <tr>
-          <td>YELLOW</td>
-          <td><input id="yellow" type="button"> </td>
+          <td>LIGHT BLUE</td>
+          <td><input id="lightblue" type="button"> </td>
         </tr>
         <tr>
           <td>BLUE</td>
           <td><input id="blue" type="button"> </td>
         </tr>
         <tr>
-          <td>ORANGE</td>
-          <td><input id="orange" type="button"> </td>
+          <td>GREEN</td>
+          <td><input id="green" type="button"> </td>
         </tr>
         <tr>
-          <td>VIOLET</td>
-          <td><input id="violet" type="button"> </td>
+          <td>PINK</td>
+          <td><input id="pink" type="button"> </td>
+        </tr>
+        <tr>
+          <td>YELLOW</td>
+          <td><input id="yellow" type="button"> </td>
         </tr>
       </table>
     </div>
@@ -92,7 +100,7 @@
   <hr>
   <center>
     <div>
-      <h5 color="tomato">KEY PEGS: Black & white </h5>
+      <h5 color="lightbrown">KEY PEGS: Black & white </h5>
       <input type="button"> <input id="black" type="button">
     </div>
   </center>
@@ -144,7 +152,7 @@
             Step 9:<input type="color">
             <input type="color">
             <input type="color">
-            <input type="color"><br><br><br><br>
+            <input type="color"><br><br>
             Step 10: <input type="color">
             <input type="color">
             <input type="color">
@@ -212,7 +220,9 @@
       </tr>
     </table>
   </center>
-  <h6> ASHISH KUMAR SINGH </h6>
+  <marquee>
+    <h6> DO ENJOY & HAVE FUN !!! </h6>
+  </marquee>
 </body>
 
 </html>
